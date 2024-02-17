@@ -21,7 +21,7 @@ async function createCard(data) {
         throw new Error('Network response was not ok');
       }
   
-      // Opcjonalnie: Odbieranie i przetwarzanie odpowiedzi JSON od serwera
+      // Opcjonalnie: Odbieranie i przetwarzanie odpowiedzi JSON o
       const responseData = await response.json();
       console.log(responseData); // Wyświetl odpowiedź w konsoli
     } catch (error) {
